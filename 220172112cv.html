@@ -120,6 +120,70 @@
     </table>
     <br>
     <hr>
+    <br>
+    <h2>CV Form</h2>
+    <br>
+    <form method="post" action="" id="cv">
+    	<fieldset>
+    		<legend>
+    			<strong>CV</strong>
+    			- Go to : 
+    			<a href="personalinfosfieldset">Personal Informations</a>,
+    			<a href="#educationfieldset">Education</a>,
+    			<a href="#interestsfieldset">Interests</a>,
+    			<a href="#contacts">Contact</a> .
+    	</legend>
+    	<fieldset id="personalinfosfieldset">
+    		<legend>Personal Informations</legend>
+    		<label>Upload your picture</label>
+    		<input type="file" name="pic"><br>
+    		<label>Name :</label>
+    		<input type="text" name="name" placeholder="enter your name"><br>
+    		<label>Age :</label>
+    		<input type="number" name="age"><br>
+    		<label>DOB : </label>
+    		<input type="Date" name="DOB">
+    	</fieldset>
+    	<fieldset id="contacts">
+    		<legend>Contact</legend>
+    		<label>Email :</label>
+    		<input type="Email" name="email"><br>
+    		<label>Telephone Number :</label>
+    		<input type="Telephone" name="telenum"><br>
+    		<label>Website(if available) :</label>
+    		<input type="url" name="URL">
+    	</fieldset>
+    	<fieldset id="educationfieldset">
+    		<legend>Education</legend>
+    		<label>High School</label><br>
+    		<label>school name : </label>
+    		<input type="text" name="schoolname"><br>
+    		<label>From :</label>
+    		<input type="Date" name="startyearschool"><br>
+    		<label>To :</label>
+    		<input type="Date" name="endyearschool"><br>
+    		<label>School Website :</label>
+    		<input type="url" name="schoolwebsite"><br>
+    		<br>
+    		<label>College</label><br>
+    		<label>College Name :</label>
+    		<input type="text" name="collegename"><br>
+    		<label>From :</label>
+    		<input type="Date" name="startyearcollege"><br>
+    		<label>To :</label>
+    		<input type="Date" name="endyearcollege"><br>
+    		<label>college Website :</label>
+    		<input type="url" name="collegewebsite">
+    	</fieldset>
+    	<fieldset id="interestsfieldset">
+    		<legend>Interests</legend>
+    		<label>Talk about your interests in brief :</label>
+    		<textarea form="#cv" ></textarea>
+    	</fieldset>
+    	</fieldset>
+    	<input type="submit" name="submit" value="Submit">
+    	<input type="reset" name="claer">
+    </form>
     
 </body>
 </html>
